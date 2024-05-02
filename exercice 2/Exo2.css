@@ -1,0 +1,38 @@
+p {
+    color: blue;
+    font-size: 14px;
+    margin: 20px;
+}
+.maclasse {
+    color: green;
+    margin: 1rem;
+}
+#monid {
+    border: 3px solid;
+    padding: 1rem;
+    margin: 2rem;
+}
+/*augmentation du padding et du margin sur la balise ID
+augmentation du margin sur la balise Class
+paragraphe changer de couleur */
+section {
+    color: green;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    text-transform: lowercase;
+    text-align: center;
+    color: red;
+}
+h2 {
+    font-size: 2vw;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-left: 50px solid black;
+}
+#superid {
+    color: red;
+}
