@@ -31,6 +31,9 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
+/* La fonction input:focus permet de changer la fonction de saisi
+comme la couleur des barres dans le cas présent du bleu */
+
 input:focus {
     border: 2px solid blue;
 }
