@@ -15,6 +15,7 @@ p {
 /*augmentation du padding et du margin sur la balise ID
 augmentation du margin sur la balise Class
 paragraphe changer de couleur */
+
 section {
     color: green;
     margin: 100px;
