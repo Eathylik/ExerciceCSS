@@ -37,3 +37,7 @@ h2 {
 #superid {
     color: red;
 }
+
+/* le fichier css est lu de haut en bas pas besoin de modifier
+les selecteurs, il suffit d'en faire d'autre celle les plus bas
+auront la priorité sur celle au dessus ! */
