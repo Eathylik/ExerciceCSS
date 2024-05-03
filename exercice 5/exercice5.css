@@ -14,6 +14,7 @@ input {
 
 label {
     width: 100px;
+    display: inline-block
 }
 
 input[type="submit"] {
@@ -32,8 +33,10 @@ input[type="submit"]:hover {
 }
 
 /* La fonction input:focus permet de changer la fonction de saisi
-comme la couleur des barres dans le cas présent du bleu */
+comme la couleur des barres dans le cas présent du bleu 
+mais également la couleur de la police et la police en elle même */
 
 input:focus {
     border: 2px solid blue;
+    color: red;
 }
