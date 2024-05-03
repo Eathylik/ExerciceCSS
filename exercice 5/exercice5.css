@@ -1,3 +1,34 @@
 form{
     font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input {
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+}
+
+label {
+    width: 100px;
+}
+
+input[type="submit"] {
+    width: 400px;
+    background-color: grey;
+    font-weight: bold;
+}
+/*input[type="submit"]:hover permet de faire une
+interraction avec le bouton */
+
+input[type="submit"]:hover {
+    background-color: rgba(128, 128, 128, 0.699);
+    cursor: pointer;
+}
+
+input:focus {
+    border: 2px solid blue;
 }
