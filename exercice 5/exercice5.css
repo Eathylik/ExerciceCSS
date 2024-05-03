@@ -23,6 +23,8 @@ input[type="submit"] {
 }
 /*input[type="submit"]:hover permet de faire une
 interraction avec le bouton */
+/*cursor: pointer permet également de changer l'interaction
+avec le bouton submit comme afficher une souris */
 
 input[type="submit"]:hover {
     background-color: rgba(128, 128, 128, 0.699);
