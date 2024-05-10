@@ -1,0 +1,181 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre {
+    background-color: rgb(0, 162, 255);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cercle1{
+    border: solid 2px white;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cercle2 {
+    border: solid 2px white;
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cercle3 {
+    border: solid 2px white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cercle4 {
+    border: solid 2px white;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.rond1 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 175px;
+}
+
+.rond2 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 145px;
+}
+
+.rond3 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    right: 155px;
+}
+
+.rond4 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 125px;
+    left: 70px;
+}
+
+.rond5 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 118px;
+    left: 70px;
+}
+
+.rond6 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    right: 145px;
+}
+
+.rond7 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 98px;
+}
+
+.rond8 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    right: 88px;
+}
+
+.rond9 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+}
+
+.rond10 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 55px;
+    left: 40px;
+}
+
+.rond11 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 20px;
+    right: 60px;
+}
+
+.rond12 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 55px;
+    left: 20px
+}
