@@ -7,6 +7,12 @@ body {
     align-items: center;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
 .feu {
     height: 300px;
     width: 100px;
@@ -32,22 +38,47 @@ body {
     border-radius: 50%;
     background-color: rgb(87, 87, 87);
     animation-name: vert;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
 @keyframes vert {
-    0%,33% {
+    0%,35% {
         background-color: green;
         transform: translateY(0px);
-        
     }
-    34%,68% {
+    36%,40% {
         background-color: orange;
         transform: translateY(-102px);
     }
-    69%,100% {
+    41%,100% {
         background-color: red;
         transform: translateY(-204px);
+    }
+}
+
+.bouge2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    animation-name: bleu;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bleu {
+    0%,49% {
+        background-color: red;
+        transform: translateY(0px);
+        
+    }
+    96%,100% {
+        background-color: orange;
+        transform: translateY(102px);
+    }
+    50%,95% {
+        background-color: green;
+        transform: translateY(204px);
     }
 }
