@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feu {
+    height: 300px;
+    width: 100px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.vert {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    animation-name: vert;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes vert {
+    from {
+        background-color: rgb(87, 87, 87);
+    }
+    to {
+        background-color: green;
+    }
+}
+
+.orange1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    animation-name: orange1;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+@keyframes orange1 {
+    from {
+        background-color: rgb(87, 87, 87);
+    }
+    to {
+        background-color: orange;
+    }
+}
+
+.rouge {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    animation-name: rouge;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+@keyframes rouge{
+    from {
+        background-color: rgb(87, 87, 87);
+    }
+    to {
+        background-color: red;
+    }
+}
