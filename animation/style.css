@@ -19,59 +19,35 @@ body {
     gap: 2em;
 }
 
-.vert {
+.couleur {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+}
+
+.bouge {
     height: 70px;
     width: 70px;
     border-radius: 50%;
     background-color: rgb(87, 87, 87);
     animation-name: vert;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes vert {
-    from {
-        background-color: rgb(87, 87, 87);
-    }
-    to {
+    0%,33% {
         background-color: green;
+        transform: translateY(0px);
+        
     }
-}
-
-.orange1 {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    background-color: rgb(87, 87, 87);
-    animation-name: orange1;
-    animation-duration: 2s;
-    animation-delay: 4s;
-}
-
-@keyframes orange1 {
-    from {
-        background-color: rgb(87, 87, 87);
-    }
-    to {
+    34%,67% {
         background-color: orange;
+        transform: translateY(-100px);
     }
-}
-
-.rouge {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    background-color: rgb(87, 87, 87);
-    animation-name: rouge;
-    animation-duration: 2s;
-    animation-delay: 6s;
-}
-
-@keyframes rouge{
-    from {
-        background-color: rgb(87, 87, 87);
-    }
-    to {
+    68%,100% {
         background-color: red;
+        transform: translateY(-200px);
     }
 }
